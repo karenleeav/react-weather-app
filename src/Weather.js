@@ -70,7 +70,6 @@ let weatherData = {
           </ul>
         </div>
       </div>
-       <a href="https://github.com/karenleeav/react-weather-app">Open-source code</a> by Karen Avidar
     </div>
   );
 }

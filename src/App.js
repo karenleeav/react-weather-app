@@ -6,6 +6,9 @@ export default function App() {
   return (
     <div className="App">
         <Weather />
+        <footer>
+        <a href="https://github.com/karenleeav/react-weather-app">Open-source code</a> by Karen Avidar
+        </footer>
     </div>
   );
 }
