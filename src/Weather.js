@@ -23,6 +23,7 @@ let weatherData = {
               placeholder="Type a city..."
               className="form-control"
               autoComplete="off"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
