@@ -3,7 +3,7 @@ import FormattedDate from "./FormattedDate";
 
 export default function WeatherInfo(props){
     return(<div className = "WeatherInfo">
-         <div className="overview">
+       
         <h1>{props.data.city}</h1>
         <ul>
           <li>
@@ -11,7 +11,7 @@ export default function WeatherInfo(props){
           </li>
           <li className="text-capitalize">{props.data.description}</li>
         </ul>
-      </div>
+     
       <div className="row">
         <div className="col-6">
           <div className="clearfix weather-temperature d-flex">
