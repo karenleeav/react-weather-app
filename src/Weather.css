@@ -57,6 +57,14 @@
   width: 48px;
 }
 
+.Weather canvas {
+  margin-right: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  line-height: 64px;
+  font-weight: 400;
+}
+
 .Weather .weather-forecast-temperature {
   text-align: center;
   color: rgb(135, 135, 135);
